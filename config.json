@@ -1,0 +1,15 @@
+{
+  "ownerNumber": "6285213510153@s.whatsapp.net",
+  "botName": "Aditbot V4",
+  "ownerName": "Adit",
+  "footer": "*Adit V4*",
+  "apikey": "BELI ATUH",
+  "pathThumb": "./media/logo.jpg",
+  "sessionName": "aqulzz",
+  "limitCount": 30,
+  "gamewaktu": 60,
+  "gcount": {
+    "prem": 50,
+    "user": 20
+  }
+}
