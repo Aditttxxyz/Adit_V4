@@ -1,0 +1,556 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@8.6.0
+2 info using node@v16.14.2
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 12ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 9ms
+8 timing config:load:env Completed in 3ms
+9 timing config:load:file:/data/data/com.termux/files/home/ex/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 40ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 12ms
+12 timing config:load:user Completed in 16ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 3ms
+15 timing config:load:validate Completed in 6ms
+16 timing config:load:credentials Completed in 9ms
+17 timing config:load:setEnvs Completed in 11ms
+18 timing config:load Completed in 125ms
+19 timing npm:load:configload Completed in 127ms
+20 timing npm:load:mkdirpcache Completed in 13ms
+21 timing npm:load:mkdirplogs Completed in 4ms
+22 verbose title npm install
+23 verbose argv "install"
+24 timing npm:load:setTitle Completed in 14ms
+25 timing config:load:flatten Completed in 32ms
+26 timing npm:load:display Completed in 53ms
+27 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs
+28 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2022-04-12T08_20_58_590Z-debug-0.log
+29 timing npm:load:logFile Completed in 57ms
+30 timing npm:load:timers Completed in 1ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 279ms
+33 timing arborist:ctor Completed in 4ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing arborist:ctor Completed in 2ms
+37 timing idealTree:init Completed in 468ms
+38 timing idealTree:userRequests Completed in 1ms
+39 silly idealTree buildDeps
+40 silly fetch manifest @adiwajshing/baileys@github:adiwajshing/baileys
+41 silly fetch manifest @adiwajshing/keyed-db@^0.2.4
+42 http fetch GET 200 https://registry.npmjs.org/@adiwajshing%2fkeyed-db 3705ms (cache revalidated)
+43 silly fetch manifest jimp@^0.16.1
+44 http fetch GET 200 https://registry.npmjs.org/jimp 318ms (cache revalidated)
+45 silly fetch manifest qrcode-terminal@^0.12.0
+46 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal 192ms (cache revalidated)
+47 silly fetch manifest sharp@^0.29.3
+48 http fetch GET 200 https://registry.npmjs.org/sharp 258ms (cache revalidated)
+49 silly placeDep ROOT @adiwajshing/baileys@4.1.0 OK for: example@0.0.1 want: github:adiwajshing/baileys
+50 silly fetch manifest @hapi/boom@^9.1.3
+51 silly fetch manifest axios@^0.24.0
+52 silly fetch manifest curve25519-js@^0.0.4
+53 silly fetch manifest libsignal@git+https://github.com/adiwajshing/libsignal-node
+54 silly fetch manifest music-metadata@^7.4.1
+55 silly fetch manifest node-cache@^5.1.2
+56 silly fetch manifest pino@^7.0.0
+57 silly fetch manifest protobufjs@^6.10.1
+58 silly fetch manifest ws@^8.0.0
+59 http fetch GET 200 https://registry.npmjs.org/axios 2591ms (cache revalidated)
+60 http fetch GET 200 https://registry.npmjs.org/@hapi%2fboom 2620ms (cache revalidated)
+61 http fetch GET 200 https://registry.npmjs.org/pino 2596ms (cache revalidated)
+62 http fetch GET 200 https://registry.npmjs.org/node-cache 2642ms (cache revalidated)
+63 http fetch GET 200 https://registry.npmjs.org/curve25519-js 2683ms (cache revalidated)
+64 http fetch GET 200 https://registry.npmjs.org/ws 2647ms (cache revalidated)
+65 http fetch GET 200 https://registry.npmjs.org/protobufjs 2680ms (cache revalidated)
+66 http fetch GET 200 https://registry.npmjs.org/music-metadata 3419ms (cache revalidated)
+67 timing idealTree:#root Completed in 25761ms
+68 silly fetch manifest bufferutil@^4.0.1
+69 http fetch GET 200 https://registry.npmjs.org/bufferutil 205ms (cache revalidated)
+70 silly fetch manifest utf-8-validate@^5.0.2
+71 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 198ms (cache revalidated)
+72 silly placeDep node_modules/@adiwajshing/baileys @hapi/boom@9.1.4 OK for: @adiwajshing/baileys@4.1.0 want: ^9.1.3
+73 silly placeDep node_modules/@adiwajshing/baileys axios@0.24.0 OK for: @adiwajshing/baileys@4.1.0 want: ^0.24.0
+74 silly placeDep ROOT curve25519-js@0.0.4 OK for: @adiwajshing/baileys@4.1.0 want: ^0.0.4
+75 silly placeDep node_modules/@adiwajshing/baileys libsignal@2.0.1 OK for: @adiwajshing/baileys@4.1.0 want: git+https://github.com/adiwajshing/libsignal-node
+76 silly placeDep node_modules/@adiwajshing/baileys music-metadata@7.12.3 OK for: @adiwajshing/baileys@4.1.0 want: ^7.4.1
+77 silly placeDep node_modules/@adiwajshing/baileys node-cache@5.1.2 OK for: @adiwajshing/baileys@4.1.0 want: ^5.1.2
+78 silly placeDep node_modules/@adiwajshing/baileys pino@7.10.0 OK for: @adiwajshing/baileys@4.1.0 want: ^7.0.0
+79 silly placeDep node_modules/@adiwajshing/baileys protobufjs@6.11.2 OK for: @adiwajshing/baileys@4.1.0 want: ^6.10.1
+80 silly placeDep ROOT ws@8.5.0 OK for: @adiwajshing/baileys@4.1.0 want: ^8.0.0
+81 silly fetch manifest @hapi/hoek@9.x.x
+82 silly fetch manifest follow-redirects@^1.14.4
+83 silly fetch manifest protobufjs@6.8.8
+84 silly fetch manifest @tokenizer/token@^0.3.0
+85 silly fetch manifest content-type@^1.0.4
+86 silly fetch manifest debug@^4.3.4
+87 silly fetch manifest file-type@16.5.3
+88 silly fetch manifest media-typer@^1.1.0
+89 silly fetch manifest strtok3@^6.3.0
+90 silly fetch manifest token-types@^4.2.0
+91 silly fetch manifest clone@2.x
+92 silly fetch manifest atomic-sleep@^1.0.0
+93 silly fetch manifest fast-redact@^3.0.0
+94 silly fetch manifest on-exit-leak-free@^0.2.0
+95 silly fetch manifest pino-abstract-transport@v0.5.0
+96 silly fetch manifest pino-std-serializers@^4.0.0
+97 silly fetch manifest process-warning@^1.0.0
+98 silly fetch manifest quick-format-unescaped@^4.0.3
+99 silly fetch manifest real-require@^0.1.0
+100 silly fetch manifest safe-stable-stringify@^2.1.0
+101 silly fetch manifest sonic-boom@^2.2.1
+102 silly fetch manifest thread-stream@^0.15.1
+103 silly fetch manifest @protobufjs/aspromise@^1.1.2
+104 silly fetch manifest @protobufjs/base64@^1.1.2
+105 silly fetch manifest @protobufjs/codegen@^2.0.4
+106 silly fetch manifest @protobufjs/eventemitter@^1.1.0
+107 silly fetch manifest @protobufjs/fetch@^1.1.0
+108 silly fetch manifest @protobufjs/float@^1.0.2
+109 silly fetch manifest @protobufjs/inquire@^1.1.0
+110 silly fetch manifest @protobufjs/path@^1.1.2
+111 silly fetch manifest @protobufjs/pool@^1.1.0
+112 silly fetch manifest @protobufjs/utf8@^1.1.0
+113 silly fetch manifest @types/long@^4.0.1
+114 silly fetch manifest @types/node@>=13.7.0
+115 silly fetch manifest long@^4.0.0
+116 http fetch GET 200 https://registry.npmjs.org/token-types 1905ms (cache revalidated)
+117 http fetch GET 200 https://registry.npmjs.org/clone 1920ms (cache revalidated)
+118 http fetch GET 200 https://registry.npmjs.org/follow-redirects 2036ms (cache revalidated)
+119 http fetch GET 200 https://registry.npmjs.org/content-type 2027ms (cache revalidated)
+120 http fetch GET 200 https://registry.npmjs.org/debug 2027ms (cache revalidated)
+121 http fetch GET 200 https://registry.npmjs.org/file-type 2037ms (cache revalidated)
+122 http fetch GET 200 https://registry.npmjs.org/@hapi%2fhoek 2104ms (cache revalidated)
+123 http fetch GET 200 https://registry.npmjs.org/fast-redact 2029ms (cache revalidated)
+124 http fetch GET 200 https://registry.npmjs.org/safe-stable-stringify 2010ms (cache revalidated)
+125 http fetch GET 200 https://registry.npmjs.org/@tokenizer%2ftoken 2183ms (cache revalidated)
+126 http fetch GET 200 https://registry.npmjs.org/thread-stream 2045ms (cache revalidated)
+127 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fbase64 2032ms (cache revalidated)
+128 http fetch GET 200 https://registry.npmjs.org/sonic-boom 2070ms (cache revalidated)
+129 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2faspromise 2099ms (cache revalidated)
+130 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fcodegen 2125ms (cache revalidated)
+131 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2ffetch 2114ms (cache revalidated)
+132 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2ffloat 2154ms (cache revalidated)
+133 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2finquire 2183ms (cache revalidated)
+134 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2feventemitter 2222ms (cache revalidated)
+135 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fpath 2208ms (cache revalidated)
+136 http fetch GET 200 https://registry.npmjs.org/pino-abstract-transport 2383ms (cache revalidated)
+137 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fpool 2245ms (cache revalidated)
+138 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2futf8 2251ms (cache revalidated)
+139 http fetch GET 200 https://registry.npmjs.org/@types%2flong 2258ms (cache revalidated)
+140 http fetch GET 200 https://registry.npmjs.org/atomic-sleep 2464ms (cache revalidated)
+141 http fetch GET 200 https://registry.npmjs.org/quick-format-unescaped 2403ms (cache revalidated)
+142 http fetch GET 200 https://registry.npmjs.org/real-require 2398ms (cache revalidated)
+143 http fetch GET 200 https://registry.npmjs.org/pino-std-serializers 2430ms (cache revalidated)
+144 http fetch GET 200 https://registry.npmjs.org/media-typer 2535ms (cache revalidated)
+145 http fetch GET 200 https://registry.npmjs.org/on-exit-leak-free 2469ms (cache revalidated)
+146 http fetch GET 200 https://registry.npmjs.org/long 2288ms (cache revalidated)
+147 http fetch GET 200 https://registry.npmjs.org/strtok3 2547ms (cache revalidated)
+148 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 2332ms (cache revalidated)
+149 http fetch GET 200 https://registry.npmjs.org/process-warning 2563ms (cache revalidated)
+150 timing idealTree:node_modules/@adiwajshing/baileys Completed in 3573ms
+151 timing idealTree:node_modules/curve25519-js Completed in 0ms
+152 timing idealTree:node_modules/ws Completed in 1ms
+153 silly placeDep node_modules/@adiwajshing/baileys @hapi/hoek@9.2.1 OK for: @hapi/boom@9.1.4 want: 9.x.x
+154 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@hapi/boom Completed in 32ms
+155 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@hapi/hoek Completed in 1ms
+156 silly placeDep ROOT follow-redirects@1.14.9 OK for: axios@0.24.0 want: ^1.14.4
+157 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/axios Completed in 24ms
+158 timing idealTree:node_modules/follow-redirects Completed in 0ms
+159 silly placeDep node_modules/@adiwajshing/baileys/node_modules/libsignal protobufjs@6.8.8 OK for: libsignal@2.0.1 want: 6.8.8
+160 silly fetch manifest @types/long@^4.0.0
+161 silly fetch manifest @types/node@^10.1.0
+162 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/libsignal Completed in 280ms
+163 silly placeDep ROOT @tokenizer/token@0.3.0 OK for: music-metadata@7.12.3 want: ^0.3.0
+164 silly placeDep ROOT content-type@1.0.4 OK for: music-metadata@7.12.3 want: ^1.0.4
+165 silly placeDep ROOT debug@4.3.4 OK for: music-metadata@7.12.3 want: ^4.3.4
+166 silly placeDep ROOT file-type@16.5.3 OK for: music-metadata@7.12.3 want: 16.5.3
+167 silly placeDep ROOT media-typer@1.1.0 OK for: music-metadata@7.12.3 want: ^1.1.0
+168 silly placeDep ROOT strtok3@6.3.0 OK for: music-metadata@7.12.3 want: ^6.3.0
+169 silly placeDep ROOT token-types@4.2.0 OK for: music-metadata@7.12.3 want: ^4.2.0
+170 silly fetch manifest ms@2.1.2
+171 silly fetch manifest readable-web-to-node-stream@^3.0.0
+172 silly fetch manifest peek-readable@^4.1.0
+173 silly fetch manifest ieee754@^1.2.1
+174 http fetch GET 200 https://registry.npmjs.org/readable-web-to-node-stream 313ms (cache revalidated)
+175 http fetch GET 200 https://registry.npmjs.org/ms 335ms (cache revalidated)
+176 http fetch GET 200 https://registry.npmjs.org/ieee754 310ms (cache revalidated)
+177 http fetch GET 200 https://registry.npmjs.org/peek-readable 347ms (cache revalidated)
+178 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/music-metadata Completed in 521ms
+179 timing idealTree:node_modules/@tokenizer/token Completed in 1ms
+180 timing idealTree:node_modules/content-type Completed in 0ms
+181 silly placeDep ROOT ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+182 timing idealTree:node_modules/debug Completed in 17ms
+183 silly placeDep ROOT readable-web-to-node-stream@3.0.2 OK for: file-type@16.5.3 want: ^3.0.0
+184 silly fetch manifest readable-stream@^3.6.0
+185 http fetch GET 200 https://registry.npmjs.org/readable-stream 262ms (cache revalidated)
+186 timing idealTree:node_modules/file-type Completed in 306ms
+187 timing idealTree:node_modules/media-typer Completed in 0ms
+188 timing idealTree:node_modules/ms Completed in 0ms
+189 silly placeDep node_modules/readable-web-to-node-stream readable-stream@3.6.0 OK for: readable-web-to-node-stream@3.0.2 want: ^3.6.0
+190 silly fetch manifest inherits@^2.0.3
+191 silly fetch manifest string_decoder@^1.1.1
+192 silly fetch manifest util-deprecate@^1.0.1
+193 http fetch GET 200 https://registry.npmjs.org/util-deprecate 424ms (cache revalidated)
+194 http fetch GET 200 https://registry.npmjs.org/inherits 479ms (cache revalidated)
+195 http fetch GET 200 https://registry.npmjs.org/string_decoder 476ms (cache revalidated)
+196 timing idealTree:node_modules/readable-web-to-node-stream Completed in 520ms
+197 silly placeDep ROOT peek-readable@4.1.0 OK for: strtok3@6.3.0 want: ^4.1.0
+198 timing idealTree:node_modules/strtok3 Completed in 21ms
+199 timing idealTree:node_modules/peek-readable Completed in 0ms
+200 silly placeDep ROOT ieee754@1.2.1 OK for: token-types@4.2.0 want: ^1.2.1
+201 timing idealTree:node_modules/token-types Completed in 18ms
+202 timing idealTree:node_modules/ieee754 Completed in 0ms
+203 silly placeDep ROOT clone@2.1.2 OK for: node-cache@5.1.2 want: 2.x
+204 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/node-cache Completed in 17ms
+205 timing idealTree:node_modules/clone Completed in 0ms
+206 silly placeDep ROOT atomic-sleep@1.0.0 OK for: pino@7.10.0 want: ^1.0.0
+207 silly placeDep node_modules/@adiwajshing/baileys fast-redact@3.1.1 OK for: pino@7.10.0 want: ^3.0.0
+208 silly placeDep node_modules/@adiwajshing/baileys on-exit-leak-free@0.2.0 OK for: pino@7.10.0 want: ^0.2.0
+209 silly placeDep node_modules/@adiwajshing/baileys pino-abstract-transport@0.5.0 OK for: pino@7.10.0 want: v0.5.0
+210 silly placeDep node_modules/@adiwajshing/baileys pino-std-serializers@4.0.0 OK for: pino@7.10.0 want: ^4.0.0
+211 silly placeDep node_modules/@adiwajshing/baileys process-warning@1.0.0 OK for: pino@7.10.0 want: ^1.0.0
+212 silly placeDep node_modules/@adiwajshing/baileys quick-format-unescaped@4.0.4 OK for: pino@7.10.0 want: ^4.0.3
+213 silly placeDep ROOT real-require@0.1.0 OK for: pino@7.10.0 want: ^0.1.0
+214 silly placeDep ROOT safe-stable-stringify@2.3.1 OK for: pino@7.10.0 want: ^2.1.0
+215 silly placeDep node_modules/@adiwajshing/baileys sonic-boom@2.7.0 OK for: pino@7.10.0 want: ^2.2.1
+216 silly placeDep node_modules/@adiwajshing/baileys thread-stream@0.15.1 OK for: pino@7.10.0 want: ^0.15.1
+217 silly fetch manifest duplexify@^4.1.2
+218 silly fetch manifest split2@^4.0.0
+219 http fetch GET 200 https://registry.npmjs.org/duplexify 199ms (cache revalidated)
+220 http fetch GET 200 https://registry.npmjs.org/split2 244ms (cache revalidated)
+221 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/pino Completed in 477ms
+222 timing idealTree:node_modules/atomic-sleep Completed in 0ms
+223 timing idealTree:node_modules/real-require Completed in 0ms
+224 timing idealTree:node_modules/safe-stable-stringify Completed in 0ms
+225 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/fast-redact Completed in 0ms
+226 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/on-exit-leak-free Completed in 0ms
+227 silly placeDep ROOT duplexify@4.1.2 OK for: pino-abstract-transport@0.5.0 want: ^4.1.2
+228 silly placeDep ROOT split2@4.1.0 OK for: pino-abstract-transport@0.5.0 want: ^4.0.0
+229 silly fetch manifest end-of-stream@^1.4.1
+230 silly fetch manifest readable-stream@^3.1.1
+231 silly fetch manifest stream-shift@^1.0.0
+232 http fetch GET 200 https://registry.npmjs.org/stream-shift 208ms (cache revalidated)
+233 http fetch GET 200 https://registry.npmjs.org/end-of-stream 241ms (cache revalidated)
+234 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/pino-abstract-transport Completed in 292ms
+235 silly placeDep ROOT end-of-stream@1.4.4 OK for: duplexify@4.1.2 want: ^1.4.1
+236 silly placeDep ROOT inherits@2.0.4 OK for: duplexify@4.1.2 want: ^2.0.3
+237 silly placeDep node_modules/duplexify readable-stream@3.6.0 OK for: duplexify@4.1.2 want: ^3.1.1
+238 silly placeDep ROOT stream-shift@1.0.1 OK for: duplexify@4.1.2 want: ^1.0.0
+239 silly fetch manifest once@^1.4.0
+240 http fetch GET 200 https://registry.npmjs.org/once 182ms (cache revalidated)
+241 timing idealTree:node_modules/duplexify Completed in 277ms
+242 silly placeDep ROOT once@1.4.0 OK for: end-of-stream@1.4.4 want: ^1.4.0
+243 silly fetch manifest wrappy@1
+244 http fetch GET 200 https://registry.npmjs.org/wrappy 220ms (cache revalidated)
+245 timing idealTree:node_modules/end-of-stream Completed in 263ms
+246 timing idealTree:node_modules/inherits Completed in 0ms
+247 silly placeDep ROOT wrappy@1.0.2 OK for: once@1.4.0 want: 1
+248 timing idealTree:node_modules/once Completed in 35ms
+249 timing idealTree:node_modules/split2 Completed in 0ms
+250 timing idealTree:node_modules/stream-shift Completed in 1ms
+251 timing idealTree:node_modules/wrappy Completed in 0ms
+252 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/pino-std-serializers Completed in 1ms
+253 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/process-warning Completed in 0ms
+254 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/aspromise@1.1.2 OK for: protobufjs@6.11.2 want: ^1.1.2
+255 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/base64@1.1.2 OK for: protobufjs@6.11.2 want: ^1.1.2
+256 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/codegen@2.0.4 OK for: protobufjs@6.11.2 want: ^2.0.4
+257 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/eventemitter@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+258 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/fetch@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+259 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/float@1.0.2 OK for: protobufjs@6.11.2 want: ^1.0.2
+260 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/inquire@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+261 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/path@1.1.2 OK for: protobufjs@6.11.2 want: ^1.1.2
+262 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/pool@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+263 silly placeDep node_modules/@adiwajshing/baileys @protobufjs/utf8@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+264 silly placeDep ROOT @types/long@4.0.1 OK for: protobufjs@6.11.2 want: ^4.0.1
+265 silly placeDep node_modules/@adiwajshing/baileys @types/node@17.0.23 OK for: protobufjs@6.11.2 want: >=13.7.0
+266 silly placeDep ROOT long@4.0.0 OK for: protobufjs@6.11.2 want: ^4.0.0
+267 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/protobufjs Completed in 328ms
+268 timing idealTree:node_modules/@types/long Completed in 1ms
+269 timing idealTree:node_modules/long Completed in 0ms
+270 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/aspromise Completed in 1ms
+271 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/base64 Completed in 0ms
+272 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/codegen Completed in 0ms
+273 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/eventemitter Completed in 1ms
+274 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/fetch Completed in 0ms
+275 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/float Completed in 1ms
+276 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/inquire Completed in 0ms
+277 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/path Completed in 1ms
+278 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/pool Completed in 0ms
+279 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/utf8 Completed in 0ms
+280 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/@types/node Completed in 0ms
+281 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/quick-format-unescaped Completed in 0ms
+282 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/sonic-boom Completed in 1ms
+283 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/thread-stream Completed in 1ms
+284 silly placeDep ROOT string_decoder@1.3.0 OK for: readable-stream@3.6.0 want: ^1.1.1
+285 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@3.6.0 want: ^1.0.1
+286 silly fetch manifest safe-buffer@~5.2.0
+287 http fetch GET 200 https://registry.npmjs.org/safe-buffer 208ms (cache revalidated)
+288 timing idealTree:node_modules/duplexify/node_modules/readable-stream Completed in 261ms
+289 silly placeDep ROOT safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+290 timing idealTree:node_modules/string_decoder Completed in 15ms
+291 timing idealTree:node_modules/safe-buffer Completed in 1ms
+292 timing idealTree:node_modules/util-deprecate Completed in 0ms
+293 timing idealTree:node_modules/readable-web-to-node-stream/node_modules/readable-stream Completed in 1ms
+294 silly placeDep node_modules/@adiwajshing/baileys/node_modules/libsignal @types/node@10.17.60 OK for: protobufjs@6.8.8 want: ^10.1.0
+295 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/libsignal/node_modules/protobufjs Completed in 20ms
+296 timing idealTree:node_modules/@adiwajshing/baileys/node_modules/libsignal/node_modules/@types/node Completed in 0ms
+297 timing idealTree:buildDeps Completed in 33175ms
+298 timing idealTree:fixDepFlags Completed in 33ms
+299 timing idealTree Completed in 33707ms
+300 timing reify:loadTrees Completed in 33717ms
+301 timing reify:diffTrees Completed in 41ms
+302 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/axios' ]
+303 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/fast-redact' ]
+304 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/libsignal' ]
+305 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/moment' ]
+306 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/music-metadata' ]
+307 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/node-cache' ]
+308 silly reify mark retired [
+308 silly reify   '/data/data/com.termux/files/home/ex/node_modules/on-exit-leak-free'
+308 silly reify ]
+309 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/pino' ]
+310 silly reify mark retired [
+310 silly reify   '/data/data/com.termux/files/home/ex/node_modules/pino-abstract-transport'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   '/data/data/com.termux/files/home/ex/node_modules/pino-std-serializers'
+311 silly reify ]
+312 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/process-warning' ]
+313 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/protobufjs' ]
+314 silly reify mark retired [
+314 silly reify   '/data/data/com.termux/files/home/ex/node_modules/quick-format-unescaped'
+314 silly reify ]
+315 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/readable-stream' ]
+316 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/sonic-boom' ]
+317 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/thread-stream' ]
+318 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/@hapi/boom' ]
+319 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/@hapi/hoek' ]
+320 silly reify mark retired [
+320 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/aspromise'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/base64'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/codegen'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/eventemitter'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/fetch'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/float'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/inquire'
+326 silly reify ]
+327 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/path' ]
+328 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/pool' ]
+329 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/utf8' ]
+330 silly reify mark retired [ '/data/data/com.termux/files/home/ex/node_modules/@types/node' ]
+331 silly reify moves {
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/axios': '/data/data/com.termux/files/home/ex/node_modules/.axios-Q0owPjSE',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/fast-redact': '/data/data/com.termux/files/home/ex/node_modules/.fast-redact-HBZEPNI1',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/libsignal': '/data/data/com.termux/files/home/ex/node_modules/.libsignal-o71DLSbV',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/moment': '/data/data/com.termux/files/home/ex/node_modules/.moment-oULScRLN',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/music-metadata': '/data/data/com.termux/files/home/ex/node_modules/.music-metadata-uGzWEWN4',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/node-cache': '/data/data/com.termux/files/home/ex/node_modules/.node-cache-xY6j3Jjg',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/on-exit-leak-free': '/data/data/com.termux/files/home/ex/node_modules/.on-exit-leak-free-ieQrTvEL',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/pino': '/data/data/com.termux/files/home/ex/node_modules/.pino-fB4JvyPN',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/pino-abstract-transport': '/data/data/com.termux/files/home/ex/node_modules/.pino-abstract-transport-zS3HgFTT',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/pino-std-serializers': '/data/data/com.termux/files/home/ex/node_modules/.pino-std-serializers-u8b2Ok16',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/process-warning': '/data/data/com.termux/files/home/ex/node_modules/.process-warning-x5ko5RPl',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/protobufjs': '/data/data/com.termux/files/home/ex/node_modules/.protobufjs-YdmYyut6',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/quick-format-unescaped': '/data/data/com.termux/files/home/ex/node_modules/.quick-format-unescaped-zEHYQJdB',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/readable-stream': '/data/data/com.termux/files/home/ex/node_modules/.readable-stream-OGXsB40X',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/sonic-boom': '/data/data/com.termux/files/home/ex/node_modules/.sonic-boom-GaJAlTga',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/thread-stream': '/data/data/com.termux/files/home/ex/node_modules/.thread-stream-sJ0tOUcK',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@hapi/boom': '/data/data/com.termux/files/home/ex/node_modules/@hapi/.boom-noh4fCN8',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@hapi/hoek': '/data/data/com.termux/files/home/ex/node_modules/@hapi/.hoek-dsKSOfXS',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/aspromise': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.aspromise-moLlaSPT',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/base64': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.base64-KOMCJHPJ',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/codegen': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.codegen-mIFGkbPo',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/eventemitter': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.eventemitter-Eqyjaxkt',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/fetch': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.fetch-GlzWpBP9',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/float': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.float-jXcv6Vcg',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/inquire': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.inquire-RhTB2Im2',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/path': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.path-bRtBkYBM',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/pool': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.pool-1o36xG1z',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/utf8': '/data/data/com.termux/files/home/ex/node_modules/@protobufjs/.utf8-Q7lqejSF',
+331 silly reify   '/data/data/com.termux/files/home/ex/node_modules/@types/node': '/data/data/com.termux/files/home/ex/node_modules/@types/.node-AM6u255Q'
+331 silly reify }
+332 timing reify:retireShallow Completed in 247ms
+333 timing reify:createSparse Completed in 220ms
+334 timing reify:loadBundles Completed in 0ms
+335 silly audit bulk request {
+335 silly audit   '@types/node': [ '17.0.23', '10.17.60' ],
+335 silly audit   '@adiwajshing/baileys': [ '4.1.0' ],
+335 silly audit   '@hapi/boom': [ '9.1.4' ],
+335 silly audit   axios: [ '0.24.0' ],
+335 silly audit   'curve25519-js': [ '0.0.4' ],
+335 silly audit   libsignal: [ '2.0.1' ],
+335 silly audit   'music-metadata': [ '7.12.3' ],
+335 silly audit   'node-cache': [ '5.1.2' ],
+335 silly audit   pino: [ '7.10.0' ],
+335 silly audit   protobufjs: [ '6.11.2', '6.8.8' ],
+335 silly audit   ws: [ '8.5.0' ],
+335 silly audit   '@hapi/hoek': [ '9.2.1' ],
+335 silly audit   'follow-redirects': [ '1.14.9' ],
+335 silly audit   '@tokenizer/token': [ '0.3.0' ],
+335 silly audit   'content-type': [ '1.0.4' ],
+335 silly audit   debug: [ '4.3.4' ],
+335 silly audit   'file-type': [ '16.5.3' ],
+335 silly audit   'media-typer': [ '1.1.0' ],
+335 silly audit   strtok3: [ '6.3.0' ],
+335 silly audit   'token-types': [ '4.2.0' ],
+335 silly audit   ms: [ '2.1.2' ],
+335 silly audit   'readable-web-to-node-stream': [ '3.0.2' ],
+335 silly audit   'readable-stream': [ '3.6.0' ],
+335 silly audit   'peek-readable': [ '4.1.0' ],
+335 silly audit   ieee754: [ '1.2.1' ],
+335 silly audit   clone: [ '2.1.2' ],
+335 silly audit   'atomic-sleep': [ '1.0.0' ],
+335 silly audit   'fast-redact': [ '3.1.1' ],
+335 silly audit   'on-exit-leak-free': [ '0.2.0' ],
+335 silly audit   'pino-abstract-transport': [ '0.5.0' ],
+335 silly audit   'pino-std-serializers': [ '4.0.0' ],
+335 silly audit   'process-warning': [ '1.0.0' ],
+335 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+335 silly audit   'real-require': [ '0.1.0' ],
+335 silly audit   'safe-stable-stringify': [ '2.3.1' ],
+335 silly audit   'sonic-boom': [ '2.7.0' ],
+335 silly audit   'thread-stream': [ '0.15.1' ],
+335 silly audit   duplexify: [ '4.1.2' ],
+335 silly audit   split2: [ '4.1.0' ],
+335 silly audit   'end-of-stream': [ '1.4.4' ],
+335 silly audit   inherits: [ '2.0.4' ],
+335 silly audit   'stream-shift': [ '1.0.1' ],
+335 silly audit   once: [ '1.4.0' ],
+335 silly audit   wrappy: [ '1.0.2' ],
+335 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+335 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+335 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+335 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+335 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+335 silly audit   '@protobufjs/float': [ '1.0.2' ],
+335 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+335 silly audit   '@protobufjs/path': [ '1.1.2' ],
+335 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+335 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+335 silly audit   '@types/long': [ '4.0.1' ],
+335 silly audit   long: [ '4.0.0' ],
+335 silly audit   string_decoder: [ '1.3.0' ],
+335 silly audit   'util-deprecate': [ '1.0.2' ],
+335 silly audit   'safe-buffer': [ '5.2.1' ]
+335 silly audit }
+336 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 871ms
+337 timing auditReport:getReport Completed in 894ms
+338 silly audit report {}
+339 timing auditReport:init Completed in 0ms
+340 timing reify:audit Completed in 904ms
+341 timing reifyNode:node_modules/@tokenizer/token Completed in 87566ms
+342 timing reifyNode:node_modules/@types/long Completed in 87649ms
+343 timing reifyNode:node_modules/wrappy Completed in 87648ms
+344 timing reifyNode:node_modules/once Completed in 87649ms
+345 timing reifyNode:node_modules/end-of-stream Completed in 87647ms
+346 timing reifyNode:node_modules/ms Completed in 87638ms
+347 timing reifyNode:node_modules/inherits Completed in 87723ms
+348 timing reifyNode:node_modules/ieee754 Completed in 87715ms
+349 timing reifyNode:node_modules/media-typer Completed in 87713ms
+350 timing reifyNode:node_modules/content-type Completed in 87721ms
+351 timing reifyNode:node_modules/string_decoder Completed in 87855ms
+352 timing reifyNode:node_modules/util-deprecate Completed in 87880ms
+353 timing reifyNode:node_modules/real-require Completed in 87859ms
+354 timing reifyNode:node_modules/stream-shift Completed in 87873ms
+355 timing reifyNode:node_modules/atomic-sleep Completed in 87864ms
+356 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/path Completed in 87890ms
+357 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/eventemitter Completed in 87889ms
+358 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/base64 Completed in 87888ms
+359 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/codegen Completed in 87891ms
+360 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/fetch Completed in 87894ms
+361 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/aspromise Completed in 87893ms
+362 timing reifyNode:node_modules/safe-buffer Completed in 87963ms
+363 timing reifyNode:node_modules/split2 Completed in 87943ms
+364 timing reifyNode:node_modules/clone Completed in 87938ms
+365 timing reifyNode:node_modules/token-types Completed in 87933ms
+366 timing reifyNode:node_modules/readable-web-to-node-stream Completed in 87940ms
+367 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/pool Completed in 87938ms
+368 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@hapi/boom Completed in 87921ms
+369 timing reifyNode:node_modules/duplexify Completed in 87980ms
+370 timing reifyNode:node_modules/debug Completed in 87969ms
+371 timing reifyNode:node_modules/follow-redirects Completed in 87968ms
+372 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/utf8 Completed in 88018ms
+373 timing reifyNode:node_modules/safe-stable-stringify Completed in 88062ms
+374 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/float Completed in 88047ms
+375 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/quick-format-unescaped Completed in 88047ms
+376 timing reifyNode:node_modules/curve25519-js Completed in 88073ms
+377 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@protobufjs/inquire Completed in 88073ms
+378 timing reifyNode:node_modules/peek-readable Completed in 88112ms
+379 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/process-warning Completed in 88098ms
+380 timing reifyNode:node_modules/file-type Completed in 88188ms
+381 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/pino-abstract-transport Completed in 88179ms
+382 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/node-cache Completed in 88175ms
+383 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/on-exit-leak-free Completed in 88185ms
+384 timing reifyNode:node_modules/long Completed in 88340ms
+385 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/sonic-boom Completed in 88401ms
+386 timing reifyNode:node_modules/strtok3 Completed in 88434ms
+387 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/pino-std-serializers Completed in 88427ms
+388 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/fast-redact Completed in 88559ms
+389 timing reifyNode:node_modules/ws Completed in 88625ms
+390 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@hapi/hoek Completed in 88612ms
+391 timing reifyNode:node_modules/duplexify/node_modules/readable-stream Completed in 88807ms
+392 timing reifyNode:node_modules/readable-web-to-node-stream/node_modules/readable-stream Completed in 88803ms
+393 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/thread-stream Completed in 88996ms
+394 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/axios Completed in 89363ms
+395 http fetch GET 200 https://codeload.github.com/adiwajshing/baileys/tar.gz/850611e50084e7d0ec75c8a70c30848c8230c4e3 2021ms (cache revalidated)
+396 http fetch GET 200 https://codeload.github.com/adiwajshing/libsignal-node/tar.gz/4ffc1f3d6147ffdec88f62e70f41e7de2e08cd42 2106ms (cache revalidated)
+397 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/libsignal/node_modules/@types/node Completed in 89870ms
+398 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/@types/node Completed in 90491ms
+399 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/pino Completed in 90781ms
+400 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/libsignal Completed in 90811ms
+401 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/music-metadata Completed in 90881ms
+402 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/libsignal/node_modules/protobufjs Completed in 91095ms
+403 timing reifyNode:node_modules/@adiwajshing/baileys/node_modules/protobufjs Completed in 91728ms
+404 timing reify:rollback:createSparse Completed in 900ms
+405 timing reify:rollback:retireShallow Completed in 39ms
+406 timing command:install Completed in 490701ms
+407 verbose stack Error: git dep preparation failed
+407 verbose stack     at ChildProcess.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/index.js:64:27)
+407 verbose stack     at ChildProcess.emit (node:events:526:28)
+407 verbose stack     at maybeClose (node:internal/child_process:1092:16)
+407 verbose stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+408 verbose cwd /data/data/com.termux/files/home/ex
+409 verbose Linux 4.9.117+
+410 verbose node v16.14.2
+411 verbose npm  v8.6.0
+412 error code 1
+413 error git dep preparation failed
+414 error command /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js install --force --cache=/data/data/com.termux/files/home/.npm --prefer-offline=false --prefer-online=false --offline=false --no-progress --no-save --no-audit --include=dev --include=peer --include=optional --no-package-lock-only --no-dry-run
+415 error > sharp@0.29.3 install
+415 error > (node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)
+415 error
+415 error sharp: Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.11.3/libvips-8.11.3-android-arm64v8.tar.br
+415 error sharp: Please see https://sharp.pixelplumbing.com/install for required dependencies
+416 error npm WARN using --force Recommended protections disabled.
+416 error npm WARN skipping integrity check for git dependency ssh://git@github.com/adiwajshing/libsignal-node.git 
+416 error npm WARN skipping integrity check for git dependency ssh://git@github.com/adiwajshing/eslint-config.git 
+416 error npm WARN deprecated @types/pino@7.0.5: This is a stub types definition. pino provides its own type definitions, so you do not need this installed.
+416 error sharp: Installation error: Prebuilt libvips 8.11.3 binaries are not yet available for android-arm64v8
+416 error npm ERR! code 1
+416 error npm ERR! path /data/data/com.termux/files/home/.npm/_cacache/tmp/git-clonetvJhiw/node_modules/sharp
+416 error npm ERR! command failed
+416 error npm ERR! command sh -c (node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)
+416 error
+416 error npm ERR! A complete log of this run can be found in:
+416 error npm ERR!     /data/data/com.termux/files/home/.npm/_logs/2022-04-12T08_23_10_169Z-debug-0.log
+417 verbose exit 1
+418 timing npm Completed in 491597ms
+419 verbose unfinished npm timer reify 1649751659459
+420 verbose unfinished npm timer reify:unpack 1649751693865
+421 verbose unfinished npm timer reifyNode:node_modules/@adiwajshing/baileys 1649751693916
+422 verbose code 1
+423 error A complete log of this run can be found in:
+423 error     /data/data/com.termux/files/home/.npm/_logs/2022-04-12T08_20_58_590Z-debug-0.log
